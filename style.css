@@ -1,0 +1,24 @@
+body {
+font-family: 'Plus Jakarta Sans', sans-serif;
+background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #eef2ff 100%);
+color: #1e293b;
+}
+
+
+::-webkit-scrollbar {
+width: 6px;
+height: 6px;
+}
+
+::-webkit-scrollbar-track {
+background: rgba(226, 232, 240, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+background: rgba(148, 163, 184, 0.5);
+border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: rgba(148, 163, 184, 0.8);
+}
